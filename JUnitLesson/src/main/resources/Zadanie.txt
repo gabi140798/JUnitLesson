@@ -1,0 +1,18 @@
+   // napisz Serwis ArraayService
+   // napisz metody które
+    // sumuja tablice liczb
+    // licza iloczyn tablicy liczb
+    // najwieksza liczba w tablicy
+    // podwojenie elementow tablicy
+    // sortowanie tablicy
+    // obsluz przypadki gdy tablica jest nullem
+
+    // Stworz klase Pracownik (imie nazwisko pensja) i Firma (nazwa) *-*
+    	// przetestuj:
+    	// - czy imie pracownika sie zgadza
+    	// - czy dlugosc nazwy firmy sie zgadza
+    	// - czy pensja pracownika sie zgadza (delta!)
+    	// - czy licznosc asocjacji sie zgadza
+    	// - czy licznosc ekstnesji sie zgadza
+    	// - czy pensja wyliczalna dla pracownika sie zgadza
+    	// - czy pensja ktora wyplaca firma wszystkim pracownikom sie zgagdza       
