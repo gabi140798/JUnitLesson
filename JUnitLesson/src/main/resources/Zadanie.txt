@@ -7,7 +7,7 @@
     // sortowanie tablicy
     // obsluz przypadki gdy tablica jest nullem
 
-    // Stworz klase Pracownik (imie nazwisko pensja) i Firma (nazwa) *-*
+    // Stworz klase Pracownik (imie nazwisko pensja) i Firma (nazwa) *-* wiele do wiele
     	// przetestuj:
     	// - czy imie pracownika sie zgadza
     	// - czy dlugosc nazwy firmy sie zgadza

@@ -1,7 +1,6 @@
 package pl.kurs.zadanie2;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Firma {
 
@@ -13,12 +12,14 @@ public class Firma {
     }
 
     public void dodajPracownika(Pracownik pracownik) {
+        if(pracownik.getFirma()!=null){
+            throw new IllegalArgumentException("pracownik ma firme");
+        }
         listaPracownikow.add(pracownik);
+        pracownik.setFirma(this);
     }
 
-    public double wyplataDlaWszystkichPracownikow() {
-        return listaPracownikow.stream().mapToDouble(Pracownik::getPensja).sum();
-    }
+
 
     public String getNazwa() {
         return nazwa;

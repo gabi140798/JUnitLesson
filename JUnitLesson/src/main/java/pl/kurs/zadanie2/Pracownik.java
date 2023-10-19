@@ -1,14 +1,20 @@
 package pl.kurs.zadanie2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Pracownik {
 
     private String imie,nazwisko;
     private double pensja;
+    private Firma firma;
+    private static List<Pracownik> pracownicy = new ArrayList<>();
 
     public Pracownik(String imie, String nazwisko, double pensja) {
         this.imie = imie;
         this.nazwisko = nazwisko;
         this.pensja = pensja;
+        pracownicy.add(this);
     }
 
     public String getImie() {
@@ -21,6 +27,18 @@ public class Pracownik {
 
     public String getNazwisko() {
         return nazwisko;
+    }
+
+    public Firma getFirma() {
+        return firma;
+    }
+
+    public void setFirma(Firma firma) {
+        this.firma = firma;
+    }
+
+    public static List<Pracownik> getPracownicy() {
+        return pracownicy;
     }
 
     public void setNazwisko(String nazwisko) {
