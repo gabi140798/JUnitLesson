@@ -1,8 +1,8 @@
-package pl.kurs.lekcja2.service;
+package pl.kurs.lekcja3.service;
 
 import org.junit.Before;
 import org.junit.Test;
-import pl.kurs.lekcja2.model.Author;
+import pl.kurs.lekcja3.model.Author;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -9,10 +9,10 @@
 
     // Stworz klase Pracownik (imie nazwisko pensja) i Firma (nazwa) *-* wiele do wiele
     	// przetestuj:
-    	// - czy imie pracownika sie zgadza
-    	// - czy dlugosc nazwy firmy sie zgadza
-    	// - czy pensja pracownika sie zgadza (delta!)
-    	// - czy licznosc asocjacji sie zgadza
-    	// - czy licznosc ekstnesji sie zgadza
-    	// - czy pensja wyliczalna dla pracownika sie zgadza
-    	// - czy pensja ktora wyplaca firma wszystkim pracownikom sie zgagdza       
+    	// - czy imie pracownika sie zgadza - P - Zrobione
+    	// - czy dlugosc nazwy firmy sie zgadza - F - Zrobione
+    	// - czy pensja pracownika sie zgadza (delta!) - P - Zrobione
+    	// - czy licznosc asocjacji sie zgadza - P/F
+    	// - czy licznosc ekstnesji sie zgadza - P/F
+    	// - czy pensja wyliczalna dla pracownika sie zgadza -
+    	// - czy pensja ktora wyplaca firma wszystkim pracownikom sie zgagdza - F

@@ -6,35 +6,35 @@ import java.util.OptionalInt;
 
 public class ArrayService {
 
-    public Optional<Integer> suma(int[] tab) {
+    public Optional<Integer> sumaTablicy(int[] tab) {
         if (tab == null) {
            throw new ArrayIsNullException("Array is null");
         }
         return Optional.of(Arrays.stream(tab).sum());
     }
 
-    public Optional<Integer> iloczyn(int[] tab) {
+    public Optional<Integer> iloczynTablicy(int[] tab) {
         if (tab == null || tab.length == 0) {
             throw new ArrayIsNullException("Array is null");
         }
         return Optional.of(Arrays.stream(tab).reduce(1, (a, b) -> a * b));
     }
 
-    public OptionalInt max(int[] tab) {
+    public OptionalInt najwiekszaLiczbaWTablicy(int[] tab) {
         if (tab == null) {
            throw new ArrayIsNullException("Array is null");
         }
         return Arrays.stream(tab).max();
     }
 
-    public Optional<int[]> podwajaElementy(int[] tab) {
+    public Optional<int[]> podwajanieElementowTablicy(int[] tab) {
         if (tab == null) {
            throw new ArrayIsNullException("Array is null");
         }
         return Optional.of(Arrays.stream(tab).map(x -> x * 2).toArray());
     }
 
-    public Optional<int[]> sort(int[] tab) {
+    public Optional<int[]> sortowanieTablicy(int[] tab) {
         if (tab == null) {
            throw new ArrayIsNullException("Array is null");
         }

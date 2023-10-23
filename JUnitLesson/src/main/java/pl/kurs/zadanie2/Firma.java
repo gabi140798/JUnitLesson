@@ -13,7 +13,7 @@ public class Firma {
 
     public void dodajPracownika(Pracownik pracownik) {
         if(pracownik.getFirma()!=null){
-            throw new IllegalArgumentException("pracownik ma firme");
+            throw new IllegalArgumentException("Pracownik ma firmę!");
         }
         listaPracownikow.add(pracownik);
         pracownik.setFirma(this);
