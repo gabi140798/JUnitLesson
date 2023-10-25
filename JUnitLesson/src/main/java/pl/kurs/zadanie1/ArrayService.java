@@ -6,11 +6,9 @@ import java.util.OptionalInt;
 
 public class ArrayService {
 
-    public Optional<Integer> sumaTablicy(int[] tab) {
-        if (tab == null) {
-           throw new ArrayIsNullException("Array is null");
-        }
-        return Optional.of(Arrays.stream(tab).sum());
+    public int sumaTablicy(int[] tab) {
+        Optional.ofNullable(tab).orElseThrow(()->new ArrayIsNullException("tablica jest nulem"));
+        return Arrays.stream(tab).sum();
     }
 
     public Optional<Integer> iloczynTablicy(int[] tab) {
@@ -27,11 +25,11 @@ public class ArrayService {
         return Arrays.stream(tab).max();
     }
 
-    public Optional<int[]> podwajanieElementowTablicy(int[] tab) {
+    public int[] podwajanieElementowTablicy(int[] tab) {
         if (tab == null) {
            throw new ArrayIsNullException("Array is null");
         }
-        return Optional.of(Arrays.stream(tab).map(x -> x * 2).toArray());
+        return Arrays.stream(tab).map(x -> x * 2).toArray();
     }
 
     public Optional<int[]> sortowanieTablicy(int[] tab) {

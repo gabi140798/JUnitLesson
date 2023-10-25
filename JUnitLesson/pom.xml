@@ -20,6 +20,14 @@
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+            <!--   scope i to test oznacza ze to dependency jest tylko do fazy testowania,
+            pozniej ten Junit nie jest nam juz potrzebny         -->
+        </dependency>
     </dependencies>
 
 </project>
