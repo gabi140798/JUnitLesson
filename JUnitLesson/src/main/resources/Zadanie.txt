@@ -12,7 +12,7 @@
     	// - czy imie pracownika sie zgadza - P - Zrobione
     	// - czy dlugosc nazwy firmy sie zgadza - F - Zrobione
     	// - czy pensja pracownika sie zgadza (delta!) - P - Zrobione
-    	// - czy licznosc asocjacji sie zgadza - P/F
-    	// - czy licznosc ekstnesji sie zgadza - P/F
-    	// - czy pensja wyliczalna dla pracownika sie zgadza -
-    	// - czy pensja ktora wyplaca firma wszystkim pracownikom sie zgagdza - F
+    	// - czy licznosc asocjacji sie zgadza - P/F - zrobione
+    	// - czy licznosc ekstnesji sie zgadza - P/F - zrobione
+    	// - czy pensja wyliczalna dla pracownika sie zgadza - nie wiem o co chodzi
+    	// - czy pensja ktora wyplaca firma wszystkim pracownikom sie zgagdza - F - Zrobione
