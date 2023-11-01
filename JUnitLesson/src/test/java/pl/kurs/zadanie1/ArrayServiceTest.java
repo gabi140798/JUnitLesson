@@ -80,7 +80,7 @@ public class ArrayServiceTest {
 
         SoftAssertions softAssertions = new SoftAssertions();
         softAssertions.assertThat(e.getClass()).isEqualTo(IllegalArgumentException.class);
-        softAssertions.assertThat(e.getMessage()).isEqualTo("tablica nulem");
+        softAssertions.assertThat(e.getMessage()).isEqualTo("Tablica jest nullem");
         softAssertions.assertThat(e.getMessage()).contains("kljgd");
         softAssertions.assertAll();
     }

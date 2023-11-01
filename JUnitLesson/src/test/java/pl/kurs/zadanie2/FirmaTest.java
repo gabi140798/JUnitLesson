@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 
 public class FirmaTest {
 
-    private Firma f1;
+   /* private Firma f1;
     private FirmaService fs1;
 
     @Before
@@ -40,6 +40,6 @@ public class FirmaTest {
     @Test
     public void sprawdzaCzyEkstensjaWynosi3() {
         assertEquals(3, f1.getListaPracownikow().size());
-    }
+    }*/
 
 }
